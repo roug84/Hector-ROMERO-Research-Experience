@@ -52,17 +52,15 @@ Others contributions I have done to this project are:
 inotropic and dromotropic effects) [[J8](https://pdfs.semanticscholar.org/1484/bd8de1812e3189c8ea8a5e62c7e8cb5791d8.pdf)]. Results helped to define the VNS parameters used during the training phase of the proposed STM-based controller.
 
 # **Postdoctoral research at CEA**
-## Modeling the effect physical activity on glucose dynamics - Diabeloop artifitial pancreas
+## Modeling the effect of physical activity on glucose dynamics - Diabeloop artifitial pancreas
 
 Currently, I am working at CEA on the Diabeloop artifitial pancreas project. My goal on this postdoctoral research is to modeling the effect of physical activity on the glucose dynamics.
 
 In this first year my contributions are:
 
-* I proposed an original branched model used to convert accelerometer and heart rate signal into energy expenditure [[J9](https://doi.org/10.1088/1361-6579/aa7cdf)].
+* I proposed an original branched model used to convert accelerometer and heart rate signals into energy expenditure [[J9](https://doi.org/10.1088/1361-6579/aa7cdf)], I also developed a nonlinear neural network-based model for converting accelerometers signals into energy expenditure [[C6](http://online.liebertpub.com/doi/full/10.1089/dia.2017.2525.abstracts)], and I participated on the development of a piecewise model, which used an activity recognition algorithm to improve energy expenditure computation from accelerometers signals [[C7](https://doi.org/10.1016/S1262-3636(17)30401-9), [C8](https://ismpb.org/wp-content/uploads/2017/06/ICAMPAM2017AbstractBookletWebFINAL.pdf) (pages 101-102)] .
 
-* I proposed a nonlinear neural network-based model for converting accelerometers signals into energy expenditure [[C6](http://online.liebertpub.com/doi/full/10.1089/dia.2017.2525.abstracts)]. 
-
-* I participated on the development of a piecewise model, which used an activity recognition algorithm to improve energy expenditure computation from accelerometers signals [[C7](https://doi.org/10.1016/S1262-3636(17)30401-9)].
+* I got interesting results on modeling the effect of physical activity on the glucose dynamics (based on system identification and physiological-based models).  
 
 ***
 
