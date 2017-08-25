@@ -32,7 +32,7 @@ To improve both P&O and NN MPPT control algorithms, I combined the P&O algorithm
 ***
 
 # **Postdoctoral research at LTSI**
-## Adaptive vagus nerve estimulation control system for heart rate regulation
+## Adaptive vagus nerve stimulation control system for heart rate regulation
 
 During my postdoctoral research position at LTSI. I worked on the INTENSE project (Initiative Nationale Technologique d’Envergure pour une NeuroStimulation Evoluée). My research was oriented to the design and implementation of real-time adaptive control systems for heart rate regulation, via vagus nerve stimulation (VNS). Vagus nerve stimulation offers an alternative therapy in various pathologies, such as epilepsy, supraventricular arrhythmias, and heart failure. However, the VNS therapy is commonly delivered in an open-loop approach, with fixed stimulation parameters, without any feedback regulation.
 
@@ -52,9 +52,9 @@ Others contributions I have done to this project are:
 inotropic and dromotropic effects) [[J8](https://pdfs.semanticscholar.org/1484/bd8de1812e3189c8ea8a5e62c7e8cb5791d8.pdf)]. Results helped to define the VNS parameters used during the training phase of the proposed STM-based controller.
 
 # **Postdoctoral research at CEA**
-## Modeling the effect of physical activity on glucose dynamics - Diabeloop artifitial pancreas
+## Modeling the effect of physical activity on glucose dynamics - Diabeloop artificial pancreas
 
-Currently, I am working at CEA on the Diabeloop artifitial pancreas project. My goal on this postdoctoral research is to modeling the effect of physical activity on the glucose dynamics.
+Currently, I am working at CEA on the Diabeloop artificial pancreas project. My goal on this postdoctoral research is to modeling the effect of physical activity on the glucose dynamics.
 
 In this first year my contributions are:
 
