@@ -40,13 +40,29 @@ The main contributions I did to this project are:
 
 * I designed, implemented, and experimentally validated an original adaptive heart rate regulation system, based on a state-transition model, which is described in five patents submitted in collaboration with SORIN group [[P1](https://www.google.com/patents/US20160375252), [P2](https://www.google.com/patents/US20160375249), [P3](https://www.google.com/patents/US20160375251), [P4](https://www.google.com/patents/US20160375250), [P5](https://www.google.com/patents/US20160022997)]. The proposed controller is implemented as two interconnected elements 1) a state-transition model and 2) a state-transition algorithm. The states of the state-transition model are composed of a set of stimulation parameters. The state-transition algorithm selects the states leading the lower error between a given target and the instantaneous heart rate. This original controller, which allows to modulate five stimulation parameters, improve results obtained by a proportional integral (PI) controller in terms of accuracy, complexity, and energy consumption. Results on the experimental validation of the proposed controller are described in two articles to be submitted to TNSRE, IEEE.   
 
-* I developed a model-based control design (MBD) framework used to design, implement and validate different control systems (on-off, PI, and STM-based controller). After model-based validation the proposed controllers were experimentally tested on sheep. This framework consists of 1) a complete physiological model representing the cardiovascular system and the autonomous nervous system implemented on a computer (Computer 1); 2) a control system implemented on Computer 2; and 3) a vagus nerve stimulation device. The three components are connected in closed-loop configuration. The advantage of the proposed framework is that allows to experimentally validate the controller, once it was tuned on the model, by easily replacing Computer 1 by the real animal (or patient). For instance, the proposed MBD was used to design a PI controller, which was experimentally validated on eight sheep. Results were published in [[J6](http://dx.doi.org/10.1109/TBME.2015.2498878), [C4](http://dx.doi.org/10.1109/NER.2015.7146659)]. 
+* I developed a model-based control design (MBD) framework used to designing, implementing and validating different control systems (on-off, PI, and STM-based controller). After model-based validation the proposed controllers were experimentally tested on sheep. This framework consists of 1) a complete physiological model representing the cardiovascular system and the autonomous nervous system implemented on a computer (Computer 1); 2) a control system implemented on Computer 2; and 3) a vagus nerve stimulation device. The three components are connected in closed-loop configuration. The advantage of the proposed framework is that allows to experimentally validate the controller, once it was tuned on the model, by easily replacing Computer 1 by the real animal (or patient). For instance, the proposed MBD was used to design a PI controller, which was experimentally validated on eight sheep. Results were published in [[J7](http://dx.doi.org/10.1109/TBME.2015.2498878), [C4](http://dx.doi.org/10.1109/NER.2015.7146659)]. 
 
 Others contributions I have done to this project are:
 
-* To develop system identification models representing the effect of VNS (input) on the heart rate (output). The model structures I used were the linear ARX, OE, and ARMAX models and the nonlinear NLARX model. Recently I used extreme learning machine (ELM) methods and support vector machines (SVM) methods.
+* I developed system identification models representing the effect of VNS (input) on the heart rate (output). The model structures I used were the linear ARX, OE, and ARMAX models and the nonlinear NLARX model. I also used extreme learning machine (ELM) methods and support vector machines (SVM) methods.
 
-* To implement an on-off controller, which was tested on four sheep. Results were presented in the 36th Annual International Conference of the Engineering in Medicine and Biology Society (EMBC) conference in Chicago [[C5](http://dx.doi.org/10.1109/EMBC.2014.6945060)].  
+* I implemented an on-off controller, which was tested on four sheep. Results were presented in the 36th Annual International Conference of the Engineering in Medicine and Biology Society (EMBC) conference in Chicago [[C5](http://dx.doi.org/10.1109/EMBC.2014.6945060)].  
+
+* I participated on the sensitivity analysis of vagus nerve stimulation parameters on acute cardiac autonomic responses (chronotropic,
+inotropic and dromotropic effects) [[J8](https://pdfs.semanticscholar.org/1484/bd8de1812e3189c8ea8a5e62c7e8cb5791d8.pdf)]. Results helped to define the VNS parameters used during the training phase of the proposed STM-based controller.
+
+# **Postdoctoral research at CEA**
+## Modeling the effect physical activity on glucose dynamics - Diabeloop artifitial pancreas
+
+Currently, I am working at CEA on the Diabeloop artifitial pancreas project. My goal on this postdoctoral research is to modeling the effect of physical activity on the glucose dynamics.
+
+In this first year my contributions are:
+
+* I proposed an original branched model used to convert accelerometer and heart rate signal into energy expenditure [[J9](https://doi.org/10.1088/1361-6579/aa7cdf)].
+
+* I proposed a nonlinear neural network-based model for converting accelerometers signals into energy expenditure [[C6](http://online.liebertpub.com/doi/full/10.1089/dia.2017.2525.abstracts)]. 
+
+* I participated on the development of a piecewise model, which used an activity recognition algorithm to improve energy expenditure computation from accelerometers signals [[C7](https://doi.org/10.1016/S1262-3636(17)30401-9)].
 
 ***
 
