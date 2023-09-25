@@ -64,6 +64,6 @@ In this first year my contributions are:
 
 ***
 
-**Publication list:** [http://roug84.github.io/Hector-ROMERO-Publication-list](http://roug84.github.io/Hector-ROMERO-Publication-list)
+**Publication list:** [https://scholar.google.com/citations?user=ZKystxoAAAAJ&hl=en](https://scholar.google.com/citations?user=ZKystxoAAAAJ&hl=en)
 
 **CV:** [http://roug84.github.io/Hector-ROMERO-CV](http://roug84.github.io/Hector-ROMERO-CV)
